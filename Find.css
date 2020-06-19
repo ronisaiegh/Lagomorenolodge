@@ -1,0 +1,248 @@
+#Topyes{
+
+display: flex;
+justify-content: flex-end;
+}
+
+#Roompic {
+  display: flex;
+  justify-content: space-around;
+font-size: 
+}
+
+#Find {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+
+
+#Underfirstpic {
+  height: 150px;
+  width: 500px;
+}
+
+#Roompicpicpic {
+  height: 550px;
+  width: 550px;
+}
+
+#EnjLM {
+  font-size: 50px;
+}
+
+#EnjLM2 {
+  font-size: 50px;
+}
+
+#Roompicpic {
+  height: 550px;
+  width: 550px;
+}
+
+#Viewmap {
+  font-family: 'Inconsolata', monospace;
+  font-size: 21px;
+  color: white;
+}
+
+#Bigtext {
+  font-size: 38px;
+  display: flex;
+  margin: auto;width: 55%;
+  padding: 50px;
+  color: white;
+
+}
+
+
+
+#Headerbody {
+/*Moves the top HR*/
+  height: 90px;
+}
+
+
+
+
+
+.Topright {
+display: flex;
+align-items: right;
+}
+
+#hr1 {
+  opacity: 30;
+}
+
+
+.Obutton { 
+  font-size: 17px;
+  font-family: 'Inconsolata', monospace;
+  background-color: transparent;
+  color: gray;
+  margin:5px
+
+}
+
+#Lagotop {
+  background-color: transparent;
+  font-size: 21px;
+  color: gray;
+}
+
+
+
+
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  color: transparent;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background-color: transparent;
+  color: transparent;
+}
+
+/*--------------------------------------------------*/
+
+
+
+#Header {
+font-family: 'Inconsolata', monospace;
+	display: flex;
+	background-color: transparent;
+
+}
+
+
+#Findhotel:hover {
+  background-color: transparent;
+  color: #43155c;
+}
+
+#Offers:hover {
+  background-color: transparent;
+  color: #43155c;
+}
+
+#Wellnessspa:hover {
+  background-color: transparent;
+  color: #43155c;
+}
+
+#Experiences:hover {
+  background-color: transparent;
+  color: #43155c;
+}
+
+#Residences:hover {
+  background-color: transparent;
+  color: #43155c;
+}
+
+#Aboutus:hover {
+  background-color: transparent;
+  color: #43155c;
+}
+
+.Booknow {
+	font-family: 'Inconsolata', monospace;
+	color: white;
+	background-color: #63277d;
+}
+
+
+
+/*=====CSS for Dropdown Menus=====*/
+
+ul {
+	   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #43155c;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    opacity: .95;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+	
+}
+
+#body {
+	background-color: #f5f5f5;
+
+}
+
+button {
+	height: 45px;
+	width: 100px;
+border: white;
+font-family: 'Anton', sans-serif;
+background-color: #f5f5f5;
+font-size: 18px
+
